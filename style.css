@@ -1,0 +1,104 @@
+#titulo_principal, .titulo_post{ 
+    color: rgb(42, 42, 240);
+    font-style: italic;
+    margin: 20px;
+    background-color: white;
+}
+#titulo_principal{
+    font-size: 80px;
+    ;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Calibri, arial;
+}
+body{
+    
+    font-size: large;
+    background: white ;
+    font-family: Calibri, arial;
+    text-align: center;
+}
+
+.posts{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 20px;
+    width: 50%;
+}
+
+form{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 4px;
+    
+}
+   
+
+.paragrafo{
+    margin: 15px;
+}
+
+.escritopor{
+    margin: 5px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.acessarpost{
+    margin: 5px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#button{
+   border: 1px solid black;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   padding-right: 22px;
+   padding-left: 22px;
+   margin-left: 0px;
+   border: 0px;
+   border-radius: 0px 10px 10px 0px;
+   background-color: rgb(32, 32, 255);
+}
+#button:hover{
+    background: lightblue;
+    transition: all ease 1s;
+
+}
+
+#desafio{
+margin: 0;
+border: 1px solid lightgrey;
+background-color: white;
+border-radius: 10px;
+width: 14%;
+}
+    
+
+#imput_email{
+   border: 0px;
+   border-radius: 10px;
+   padding-right: 0px;
+   background-color: white;
+   outline: none;
+}
+    
+.esquerda{
+    display: flex;
+    
+}
+
+.direita{
+    display: flex;
+    
+}
+
+footer{
+    text-align: left;
+    
+}
